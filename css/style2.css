@@ -1,0 +1,192 @@
+footer p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+footer{
+    padding: 0px;
+}
+
+#logo{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 76vw;
+    top: 16px;
+}
+
+.titulo h2{
+    display: flex;
+    color: #ed5339;
+    font-size: 2rem;
+    margin-bottom: 0px;
+    font-weight: 500;
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+}
+  
+.titulo p{
+    text-align: center;
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.link {
+    text-decoration: none; 
+    color: white; 
+    font-weight: 500;
+}  
+
+button.botao_um{
+    color: aliceblue;
+    width: 305px;
+    height: 66px;
+    flex-shrink: 0;
+    background: #6897ED;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 30px;
+    margin-bottom: 1vh;
+}
+  
+  
+button.botao_dois{
+    color: aliceblue;
+    width: 305px;
+    height: 66px;
+    flex-shrink: 0;
+    background: #BEED51;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 30px;
+    margin-bottom: 1vh;
+}
+  
+  
+button.botao_tres{
+    color: aliceblue;
+    width: 305px;
+    height: 66px;
+    flex-shrink: 0;
+    background: #ED5339;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 30px;
+    margin-bottom: 1vh;
+}
+
+.botoes_denuncia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+.botoes_denuncia button {
+    margin-bottom: 18px; 
+    width: 80%; 
+    max-width: 300px; 
+    height: 70px; 
+    font-size: 24px; 
+}
+
+@media (min-width: 769px) {
+    .botoes_denuncia {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .botoes_denuncia button {
+      margin-bottom: 0; 
+    }
+
+    .botao_um{
+        margin-left: 40px;
+    }
+
+    .botao_tres{
+        margin-right: 40px;
+    }
+
+    #logo{
+        left: 90vw;
+    }
+  }
+
+.texto{
+    font-size: 1.2rem;   
+    margin-left: 15px;  
+    margin-right: 15px;
+}
+
+ 
+.linkmais{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.containervideo {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-inner .carousel-item iframe {
+    width: 80vw; 
+    height: calc(80vw * 9 / 16);
+    max-height: 80vh;
+    margin: 0 auto; 
+}
+
+.card{
+    margin: 15px;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%; 
+    position: relative;
+    height: 0;
+    margin-bottom: 10px;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.centralize-imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    margin-bottom: 20px;
+}
+
+.centralize-imagem img {
+    max-width: 90%; 
+    height: auto; 
+}
+
+.total {
+    width: 100vw;
+    height: auto;
+    margin-top: -25px;
+}
+
+.mar{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
