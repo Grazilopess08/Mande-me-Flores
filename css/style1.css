@@ -42,8 +42,14 @@ footer{
     margin-left: 24px;
     display: flex;
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 20px;
+    color: #11007b;
+}
+
+.texto p{
+    color: #11007b;
+    font-weight: 500;
 }
 
 .link {
