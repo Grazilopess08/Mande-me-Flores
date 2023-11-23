@@ -14,6 +14,12 @@ footer{
     padding: 0px;
 }
 
+.btn.btn-primary{
+    background-color: #11007b;
+    border-color: #000;
+    font-weight: bold;
+}
+
 #logo{
     width: 80px;
     height: 80px;

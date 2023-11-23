@@ -10,6 +10,11 @@ footer p{
     margin-bottom: 0px;
 }
 
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 footer{
     padding: 0px;
 }
@@ -23,22 +28,26 @@ footer{
 }
 
 .titulo h2{
-    display: flex;
     color: #ed5339;
     font-size: 2rem;
     margin-bottom: 0px;
     font-weight: 500;
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
-    padding: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
 }
   
+.btn.btn-primary{
+    background-color: #11007b;
+    border-color: #000;
+    font-weight: bold;
+}
+
 .titulo p{
     text-align: center;
-    display: flex;
     font-size: 1.3rem;
     font-weight: 600;
-    margin-bottom: 20px;
 }
 
 .link {
@@ -124,6 +133,7 @@ button.botao_tres{
     font-size: 1.2rem;   
     margin-left: 15px;  
     margin-right: 15px;
+    text-align: justify;
 }
 
  
@@ -145,6 +155,14 @@ button.botao_tres{
     height: calc(80vw * 9 / 16);
     max-height: 80vh;
     margin: 0 auto; 
+}
+
+.card-title{
+    font-weight: bold;
+    text-align: start;
+    font-size: 1.2em;
+    margin-top: 30px;
+    margin-bottom: 12px;
 }
 
 .card{
