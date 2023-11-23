@@ -1,26 +1,37 @@
 body{
     background-image: url('../img/fundo.jpg');
-    background-size: 100% 100%;
+    background-size: 100vw auto;
     margin: 0;
     padding: 0;
 }
 
-@media (max-width: 767px) {
-    body {
-        background-size: auto 200vh; 
-    }
+#img-1 {
+    border: 6px solid #6897ED;
 }
 
-footer p{
+#img-2 {
+    border: 6px solid #BEED51;
+}
+
+#img-3 {
+    border: 6px solid #ED5339;
+}
+
+
+footer, footer p{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: #000;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+footer img{
+    margin-top: 20px;
 }
 
 footer{
@@ -171,11 +182,19 @@ button.botao_tres{
     align-items: center;
 }
 
+li::marker{
+    display: none;
+}
+
 .carousel-inner .carousel-item iframe {
     width: 80vw; 
     height: calc(80vw * 9 / 16);
     max-height: 80vh;
     margin: 0 auto; 
+}
+
+.card-img-top{
+    border: 15px solid #fff;
 }
 
 .card{
