@@ -1,3 +1,7 @@
+main{
+    background: url('//img/fundo.jpg');
+}
+
 footer p{
     display: flex;
     flex-direction: column;
@@ -47,9 +51,16 @@ footer{
     color: #11007b;
 }
 
+small{
+    margin:2px;
+    color: #000;
+    font-weight: 500;
+}
+
 .texto p{
     color: #11007b;
-    font-weight: 500;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .link {
